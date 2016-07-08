@@ -1,10 +1,11 @@
 {
   "name": "buttron",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A whole new way to button",
   "author": "te schultz <te.artisin@gmail.com>",
   "keywords": ["buttron", "stylus", "artisin"],
   "license" : "MIT",
+  "main": "src/buttron.js",
   "engines": {
     "node": "6.3.0",
     "npm": "2.3.0"
