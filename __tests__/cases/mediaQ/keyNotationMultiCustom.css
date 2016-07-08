@@ -1,0 +1,78 @@
+.test {
+  background: #eee;
+}
+@media only screen and (max-width: 400px) and (orientation: portrait) and (max-height: 400px) {
+  .test {
+    color: #fff;
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) and (orientation: portrait) and (max-height: 400px) {
+  .test {
+    color: #fff;
+    width: 100px;
+  }
+}
+@media not tv and (orientation: portrait) and (min-width: 100px) and (max-width: 300px) {
+  .test {
+    color: #fff;
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1050px) and (orientation: portrait) {
+  .test {
+    color: #fff;
+    width: 800px;
+  }
+}
+@media only screen and (min-width: 1800px) and (orientation: portrait) {
+  .test {
+    color: #fff;
+    width: 800px;
+  }
+}
+@media only screen and (orientation: portrait) and (max-height: 2000px) {
+  .test {
+    color: #fff;
+    height: 420px;
+  }
+}
+.test {
+  background: #eee;
+}
+@media only screen and (max-width: 400px) and (orientation: portrait) and (max-height: 400px) {
+  .test {
+    color: #fff;
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) and (orientation: portrait) and (max-height: 400px) {
+  .test {
+    color: #fff;
+    width: 100px;
+  }
+}
+@media not tv and (orientation: portrait) and (min-width: 100px) and (max-width: 300px) {
+  .test {
+    color: #fff;
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1050px) and (orientation: portrait) {
+  .test {
+    color: #fff;
+    width: 800px;
+  }
+}
+@media only screen and (min-width: 1800px) and (orientation: portrait) {
+  .test {
+    color: #fff;
+    width: 800px;
+  }
+}
+@media only screen and (orientation: portrait) and (max-height: 2000px) {
+  .test {
+    color: #fff;
+    height: 420px;
+  }
+}

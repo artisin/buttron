@@ -1,0 +1,2 @@
+-transition/shorthandParentOpts
+Shorthand should inherit option properties if not specified. Via the natrual order which is local > parent > global > default. Also these properites should be inherited regardless if said shorthand is or is not specified within the options or the partent. 

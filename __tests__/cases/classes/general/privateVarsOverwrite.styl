@@ -1,0 +1,34 @@
+$$bgColor = red
+$$fz = 3rem
+
+privateVarsOverwrite = ButtronClass('privateVarsOverwrite', {
+  style: false
+  $$:{
+    bgColor: #1ABC9C
+    borderWidth: 5px
+    borderColor: #9B59B6
+    fz: 1.2rem
+  }
+  background: "$$[bgColor]"
+  font-size: "$$[fz]"
+  border: "$$[borderWidth]" solid "$$[borderColor]"
+})
+
+.test
+  privateVarsOverwrite({
+    $$:{
+      bgColor: green
+      borderWidth: 10px
+      borderColor: blue
+      fz: 2rem
+    }
+  })
+
+privateVarsOverwrite('.test',{
+  $$:{
+    bgColor: green
+    borderWidth: 10px
+    borderColor: blue
+    fz: 2rem
+  }
+})

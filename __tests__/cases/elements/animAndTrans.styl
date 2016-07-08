@@ -1,0 +1,98 @@
+
+
+.test
+  buttron({
+    style: false
+    after:{
+      content: 'test'
+      anim:{
+        name: 'testAnim'
+        option:{
+         count: infinite
+        }
+        timeline: {
+          '50':{
+            background: green
+          }
+        }
+      }
+      hover:{
+        trans:{
+          font-size: 1.2rem
+          color: pink
+          shorthand:{
+            color: 1s
+          }
+        }
+        anim:{
+          name: 'yoyo'
+        }
+      }
+    }
+    first-child:{
+      width: 200px
+      hover:{
+        trans:{
+          font-size: 1.2rem
+          color: pink
+          shorthand:{
+            color: 1s
+          }
+        }
+        anim:{
+          name: 'kool'
+          option:{
+           count: infinite
+          }
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  style: false
+  after:{
+    content: 'test'
+    anim:{
+      name: 'testAnim'
+      option:{
+       count: infinite
+      }
+      timeline: {
+        '50':{
+          background: green
+        }
+      }
+    }
+    hover:{
+      trans:{
+        font-size: 1.2rem
+        color: pink
+        shorthand:{
+          color: 1s
+        }
+      }
+      anim:{
+        name: 'yoyo'
+      }
+    }
+  }
+  first-child:{
+    width: 200px
+    hover:{
+      trans:{
+        font-size: 1.2rem
+        color: pink
+        shorthand:{
+          color: 1s
+        }
+      }
+      anim:{
+        name: 'kool'
+        option:{
+         count: infinite
+        }
+      }
+    }
+  }
+})

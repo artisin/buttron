@@ -1,0 +1,52 @@
+
+
+.inherit
+  buttron({
+    style: true
+  })
+#inherit
+  buttron({
+    style: true
+  })
+input
+  buttron({
+    style: true
+  })
+input:first-child
+  buttron({
+    style: true
+  })
+:first-of-type
+  buttron({
+    style: true
+  })
+.add + #me
+  buttron({
+    style: true
+  })
+div ~ p:nth-child(2) > .cool
+  buttron({
+    style: true
+  })
+
+buttron('.inherit', {
+  style: true
+})
+buttron('#inherit', {
+  style: true
+})
+buttron('input', {
+  style: true
+})
+buttron('input:first-child', {
+  style: true
+})
+buttron(':first-of-type', {
+  style: true
+})
+buttron('.add + #me', {
+  style: true
+})
+buttron('div ~ p:nth-child(2) > .cool', {
+  style: true
+})

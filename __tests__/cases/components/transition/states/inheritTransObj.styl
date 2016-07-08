@@ -1,0 +1,55 @@
+
+
+.test
+  buttron({
+    style: false
+    component:{
+      span:{
+        trans:{
+          option:{
+            duration: 10s
+            shorthand:{
+              color: 1s
+            }
+          }
+        }
+        hover:{
+          background: green
+          color: red
+          option:{
+            root: true
+            shorthand:{
+              color: 100s
+            }
+          }
+        }
+      }
+    }
+  })
+  
+buttron('.test', {
+  style: false
+  component:{
+    span:{
+      trans:{
+        option:{
+          duration: 10s
+          shorthand:{
+            color: 1s
+          }
+        }
+      }
+      hover:{
+        background: green
+        color: red
+        option:{
+          root: true
+          shorthand:{
+            color: 100s
+          }
+        }
+      }
+    }
+  }
+})
+

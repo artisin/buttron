@@ -1,0 +1,38 @@
+
+
+.test
+  buttron({
+    width: 200px
+    customState:{
+      background: #eee
+      option:{
+        state: 'checked'
+      }
+    }
+  })
+//state in parent
+.test
+  buttron({
+    width: 200px
+    customState:{
+      background: #eee
+      state: 'checked'
+    }
+  })
+
+buttron('.test', {
+  width: 200px
+  customState:{
+    background: #eee
+    option:{
+      state: 'checked'
+    }
+  }
+})
+buttron('.test', {
+  width: 200px
+  customState:{
+    background: #eee
+    state: 'checked'
+  }
+})

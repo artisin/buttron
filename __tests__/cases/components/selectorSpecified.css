@@ -1,0 +1,6 @@
+.test + span {
+  font-size: 1rem;
+}
+.test ~ span {
+  font-size: 1rem;
+}

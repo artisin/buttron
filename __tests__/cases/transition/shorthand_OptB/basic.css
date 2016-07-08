@@ -1,0 +1,20 @@
+.test {
+  width: 200px;
+}
+.test {
+  background: #008000;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test {
+  background: #008000;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}

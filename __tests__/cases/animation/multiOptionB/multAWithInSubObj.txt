@@ -1,0 +1,2 @@
+-animation/multiOptionB/multAWithInSubObj
+If a sub-anim-obj uses multiA (optionA) notation handle it just like sub-sub-anim's inception shit. 

@@ -1,0 +1,2 @@
+-animation/multiOptionA/option
+If there is an option object those options values should be appled to both timelines.

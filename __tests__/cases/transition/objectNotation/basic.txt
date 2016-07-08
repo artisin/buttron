@@ -1,0 +1,2 @@
+-transition/objectNotation/basic
+If there is only objects within the transtion object assume the user is using object notation and phrase each sub-object seperatly and then merge the results together as one bit happy family.

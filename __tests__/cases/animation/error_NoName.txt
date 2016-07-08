@@ -1,0 +1,2 @@
+-animation/error_NoName
+If no name value for animation throw a warning and default to 'noNameFound' timeline name.

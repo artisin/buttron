@@ -1,0 +1,18 @@
+.test:before {
+  content: 'testBefore';
+  background: #008000;
+}
+.test:after {
+  content: 'testAfter';
+  background: #008000;
+  color: #ff0;
+}
+.test:before {
+  content: 'testBefore';
+  background: #008000;
+}
+.test:after {
+  content: 'testAfter';
+  background: #008000;
+  color: #ff0;
+}

@@ -1,0 +1,2 @@
+-cases/mediaQ/basicTypeSingleObj
+Single obj media q. Should make media q's for each media type with said condition appled to the media type.

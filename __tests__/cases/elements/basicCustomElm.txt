@@ -1,0 +1,2 @@
+-elements/basicCustomElm
+If regex match of `-customEl` consider it to be an element and compile it as such. Also if there are multiple elements defined cycle through them and apply to each respective element.

@@ -1,0 +1,60 @@
+@-moz-keyframes noNameFound {
+  50% {
+    background: #008080;
+  }
+}
+@-webkit-keyframes noNameFound {
+  50% {
+    background: #008080;
+  }
+}
+@-o-keyframes noNameFound {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes noNameFound {
+  50% {
+    background: #008080;
+  }
+}
+.test {
+  animation-name: noNameFound;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@-moz-keyframes noNameFound {
+  50% {
+    background: #008080;
+  }
+}
+@-webkit-keyframes noNameFound {
+  50% {
+    background: #008080;
+  }
+}
+@-o-keyframes noNameFound {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes noNameFound {
+  50% {
+    background: #008080;
+  }
+}
+.test {
+  animation-name: noNameFound;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}

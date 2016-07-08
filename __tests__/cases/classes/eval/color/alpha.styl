@@ -1,0 +1,18 @@
+
+
+evalAlpha = ButtronClass('evalAlpha', {
+  style: false
+  $$:{
+    eval:{
+      bg: "alpha($$[base], 0.2)"
+    }
+    base: red
+  }
+  background: "$$[bg]"
+  color: alpha(red, 0.2)
+})
+
+.test
+  evalAlpha()
+
+evalAlpha('.test')

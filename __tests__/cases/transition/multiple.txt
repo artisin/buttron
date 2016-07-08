@@ -1,0 +1,2 @@
+-transtion/multiple
+Create a transtion in parent scoope via the trans object that has multiple props which will be joined in with the proper formating.

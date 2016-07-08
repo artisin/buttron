@@ -1,0 +1,2 @@
+-transition/applyToObjectNotation
+Global trans with object notation one with applyTo and one without. The one with applyTo should have said applyTo appened onto the end while the other is object is uneffect by said applyTo.

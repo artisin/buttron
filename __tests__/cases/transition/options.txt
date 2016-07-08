@@ -1,0 +1,2 @@
+-transtion/options
+Overide the default trans options within the transtion object via the option object inside the trans object. 

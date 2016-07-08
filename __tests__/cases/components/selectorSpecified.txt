@@ -1,0 +1,2 @@
+-components/selectorSpecified
+If there is a selector specified use said selector.

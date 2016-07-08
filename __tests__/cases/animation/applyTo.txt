@@ -1,0 +1,2 @@
+-animation/applyTo
+If applyTo is specified within anim options apply it to the specified option.

@@ -1,0 +1,18 @@
+.test:nth-child(2) {
+  background: #008000;
+}
+.test:before {
+  content: 'test';
+}
+.test:after {
+  content: 'test';
+}
+.test:nth-child(2) {
+  background: #008000;
+}
+.test:before {
+  content: 'test';
+}
+.test:after {
+  content: 'test';
+}

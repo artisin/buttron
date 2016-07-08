@@ -1,0 +1,2 @@
+-mediaQ/keyNotationMultiCustom
+Like keyNotation but if a key has a plus "+" character in the key assume the user will take care of specifing the mq.

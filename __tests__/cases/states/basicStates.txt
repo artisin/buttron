@@ -1,0 +1,2 @@
+-states/basicStates
+Create states with auto-gen of global transitions for all except link and visited.

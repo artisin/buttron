@@ -1,0 +1,63 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 300px
+    trans:{
+      one:{
+        background: green
+      }
+      two: {
+        font-size: 1.2rem
+        color: red
+      }
+      three:{
+        width: 200px
+        option:{
+          duration: 1.3s
+        }
+      }
+      prop:{
+        border-color: green
+        option:{
+          property: left right
+          duration: 1.2s 1.8s
+        }
+      }
+      globalOption:{
+        duration: 1s
+      }
+    }
+  })
+  
+
+buttron('.test', {
+  style: false
+  width: 300px
+  transition:{
+    one:{
+      background: green
+    }
+    two: {
+      font-size: 1.2rem
+      color: red
+    }
+    three:{
+      width: 200px
+      option:{
+        duration: 1.3s
+      }
+    }
+    prop:{
+      border-color: green
+      option:{
+        property: left right
+        duration: 1.2s 1.8s
+      }
+    }
+    globalOption:{
+      duration: 1s
+    }
+  }
+})

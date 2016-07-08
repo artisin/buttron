@@ -1,0 +1,2 @@
+-states/custom/basicWithTrans
+If trahsition: true is passed within the custom state it should then autogen trans props.

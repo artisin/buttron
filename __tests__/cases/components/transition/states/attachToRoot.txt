@@ -1,0 +1,2 @@
+-components/transition/states/attachToRoot
+If `root: true` is passed within a state that is in a component attach said state to the root selector.

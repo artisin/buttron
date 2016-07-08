@@ -1,0 +1,140 @@
+
+
+.test
+  buttron({
+    width: 400px
+    height: 100px
+    background: pink
+    component:{
+      ".beerOne":{
+        height: 75px
+        width: 250px
+        background: alpha(green, 0.3)
+        border-radius: 0px
+        z-index: 10
+        hover:{
+          trans:{
+            one:{
+              color: red
+              option:{
+                applyTo: 'span'
+                duration: 3s
+                delay: 1s
+              }
+            }
+            two:{
+              font-size: 3rem
+              option:{
+                applyTo: 'span'
+                root: true
+              }
+            }
+            two-half:{
+              border-color: white
+              option:{
+                applyTo: 'span'
+                root: true
+                autoGen: false
+              }
+            }
+            three:{
+              background: purple
+              option:{
+                root: true
+              }
+            }
+            four: {
+              border-radius: 10px
+            }
+          }
+        }
+        component:{
+          ".beerTwo":{
+            background: teal
+            hover:{
+              trans:{
+                one:{
+                  background: black
+                }
+                two:{
+                  color: red
+                  option:{
+                    root: true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  width: 400px
+  height: 100px
+  background: pink
+  component:{
+    ".beerOne":{
+      height: 75px
+      width: 250px
+      background: alpha(green, 0.3)
+      border-radius: 0px
+      z-index: 10
+      hover:{
+        trans:{
+          one:{
+            color: red
+            option:{
+              applyTo: 'span'
+              duration: 3s
+              delay: 1s
+            }
+          }
+          two:{
+            font-size: 3rem
+            option:{
+              applyTo: 'span'
+              root: true
+            }
+          }
+          two-half:{
+            border-color: white
+            option:{
+              applyTo: 'span'
+              root: true
+              autoGen: false
+            }
+          }
+          three:{
+            background: purple
+            option:{
+              root: true
+            }
+          }
+          four: {
+            border-radius: 10px
+          }
+        }
+      }
+      component:{
+        ".beerTwo":{
+          background: teal
+          hover:{
+            trans:{
+              one:{
+                background: black
+              }
+              two:{
+                color: red
+                option:{
+                  root: true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+})

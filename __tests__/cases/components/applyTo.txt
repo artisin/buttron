@@ -1,0 +1,2 @@
+-components/applyTo
+If there is an 'applyTo' within an component then apply to that said component.

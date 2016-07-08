@@ -1,0 +1,53 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 300px
+    trans:{
+      one:{
+        background: green
+      }
+      two: {
+        font-size: 1.2rem
+        color: red
+      }
+      three: {
+        letter-spacing: 1.1rem
+        shorthand:{
+          width: 2s
+          top: 1s ease-out
+          bottom: 1.2s ease-in 3s
+        }
+      }
+      globalOption:{
+        duration: 1s
+      }
+    }
+  })
+  
+
+buttron('.test', {
+  style: false
+  width: 300px
+  transition:{
+    one:{
+      background: green
+    }
+    two: {
+      font-size: 1.2rem
+      color: red
+    }
+    three: {
+      letter-spacing: 1.1rem
+      shorthand:{
+        width: 2s
+        top: 1s ease-out
+        bottom: 1.2s ease-in 3s
+      }
+    }
+    globalOption:{
+      duration: 1s
+    }
+  }
+})

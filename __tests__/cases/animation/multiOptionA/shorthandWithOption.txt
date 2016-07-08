@@ -1,0 +1,2 @@
+-animation/multiOptionA/shorthandWithOption
+If there are options outside of the shorthand those options should be treated like global options and applied to shortand as default but not overwrite.

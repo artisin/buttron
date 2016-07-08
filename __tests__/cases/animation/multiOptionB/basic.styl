@@ -1,0 +1,46 @@
+
+
+.test
+  buttron({
+    style: false
+    anim:{
+      one:{
+        name: 'tlOne'
+        timeline:{
+          '50':{
+            background: green
+          }
+        }
+      }
+      tlTwo: {
+        timeline:{
+          '50':{
+            color: green
+          }
+        }
+      }
+    }
+  })
+
+
+
+buttron('.test', {
+  style: false
+  anim:{
+    one:{
+      name: 'tlOne'
+      timeline:{
+        '50':{
+          background: green
+        }
+      }
+    }
+    tlTwo: {
+      timeline:{
+        '50':{
+          color: green
+        }
+      }
+    }
+  }
+})

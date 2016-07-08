@@ -1,0 +1,2 @@
+-states/transOnAndOffOption
+Turn autogen trans on or off by declaring so in the option object rather than in the parent object.

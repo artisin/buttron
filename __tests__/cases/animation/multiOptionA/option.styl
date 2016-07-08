@@ -1,0 +1,54 @@
+
+
+.test
+  buttron({
+    style: false
+    anim:{
+      multiple: true
+      option:{
+        duration: 10s
+        delay: 1s
+        state: paused
+      }
+      timeline:{
+        tlOne:{
+          "50%":{
+            background: purple
+          }
+        }
+        koolBrah:{
+          name: tlTwo
+          "50%":{
+            color: yellow
+          }
+        }
+      }
+    }
+  })
+
+
+
+buttron('.test', {
+  style: false
+  anim:{
+    multiple: true
+    option:{
+      duration: 10s
+      delay: 1s
+      state: paused
+    }
+    timeline:{
+      tlOne:{
+        "50%":{
+          background: purple
+        }
+      }
+      koolBrah:{
+        name: tlTwo
+        "50%":{
+          color: yellow
+        }
+      }
+    }
+  }
+})

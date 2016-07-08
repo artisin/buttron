@@ -1,0 +1,2 @@
+-transition/optionWithProperty
+When property key is defined within the option object said object propery value will be formated and correspond to the property index value if one is exists otherwise default to default value. No auto-gen as well.

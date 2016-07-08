@@ -1,0 +1,2 @@
+-animation/multiOptionB/applyTo
+If there is an applyTo in one of the sub-anim-objs apply that to said apply to while the rest will act as expected.

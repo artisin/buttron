@@ -1,0 +1,2 @@
+-states/media/objKeyNotation
+media object key notation with global merge and props, deets in the stylus comments.

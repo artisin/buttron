@@ -1,0 +1,88 @@
+.test {
+  width: 200px;
+}
+.test {
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+@-moz-keyframes tlTest {
+  50% {
+    font-size: 2em;
+  }
+}
+@-webkit-keyframes tlTest {
+  50% {
+    font-size: 2em;
+  }
+}
+@-o-keyframes tlTest {
+  50% {
+    font-size: 2em;
+  }
+}
+@keyframes tlTest {
+  50% {
+    font-size: 2em;
+  }
+}
+.test:checked {
+  width: 300px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+  animation-name: tlTest;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.test {
+  width: 200px;
+}
+.test {
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+@-moz-keyframes tlTest {
+  50% {
+    font-size: 2em;
+  }
+}
+@-webkit-keyframes tlTest {
+  50% {
+    font-size: 2em;
+  }
+}
+@-o-keyframes tlTest {
+  50% {
+    font-size: 2em;
+  }
+}
+@keyframes tlTest {
+  50% {
+    font-size: 2em;
+  }
+}
+.test:checked {
+  width: 300px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+  animation-name: tlTest;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}

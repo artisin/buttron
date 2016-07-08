@@ -1,0 +1,48 @@
+
+
+.test
+  buttron({
+    style: false
+    first-child:{
+      font-size: 1rem
+      hover:{
+        font-size: 2rem
+      }
+    }
+    customElm:{
+      element: "nth-last-child(2)"
+      color: red
+      background: green
+      focus: {
+        color: blue
+        background: yellow
+        shorthand:{
+          color: 1s
+          background: 2s
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  style: false
+  first-child:{
+    font-size: 1rem
+    hover:{
+      font-size: 2rem
+    }
+  }
+  customElm:{
+    element: "nth-last-child(2)"
+    color: red
+    background: green
+    focus: {
+      color: blue
+      background: yellow
+      shorthand:{
+        color: 1s
+        background: 2s
+      }
+    }
+  }
+})

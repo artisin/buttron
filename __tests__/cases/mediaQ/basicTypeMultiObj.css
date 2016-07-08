@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+@media only screen {
+  .test {
+    width: 100px;
+  }
+}
+@media not projection {
+  .test {
+    width: 100px;
+  }
+}
+@media only print {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen {
+  .test {
+    width: 100px;
+  }
+}
+@media not projection {
+  .test {
+    width: 100px;
+  }
+}
+@media only print {
+  .test {
+    width: 100px;
+  }
+}

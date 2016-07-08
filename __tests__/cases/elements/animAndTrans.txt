@@ -1,0 +1,2 @@
+-elements/animAndTrans
+If there is both an animation and transition within an element compile both and join to make one argument. Same if it is a state within an element.

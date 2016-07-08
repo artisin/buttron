@@ -1,0 +1,43 @@
+
+
+.test
+  buttron({
+    width: 200px
+    customState:{
+      required:{
+        component:{
+          span:{
+            font-size: 2em
+            customState:{
+              state: 'hover' 'focus'
+              trans:{
+                color: green
+              }
+            }
+          }
+        }
+      }
+    }
+  })
+  
+
+
+buttron('.test', {
+  width: 200px
+  customState:{
+    required:{
+      component:{
+        span:{
+          font-size: 2em
+          customState:{
+            state: 'hover' 'focus'
+            trans:{
+              color: green
+            }
+          }
+        }
+      }
+    }
+  }
+})
+  

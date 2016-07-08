@@ -1,0 +1,2 @@
+-states/basicStatesWithOptions
+Basic states that have basic options.

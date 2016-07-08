@@ -1,0 +1,2 @@
+-components/elmSpecified
+If an element is specified create a componenet with the said specified target element.

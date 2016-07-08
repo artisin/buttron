@@ -1,0 +1,2 @@
+-transition/objectNotation/error_DuplicateProp
+When there is a duplicate property in the precent in a transition object throw the user an error to indicate that there is a duplicate prop.

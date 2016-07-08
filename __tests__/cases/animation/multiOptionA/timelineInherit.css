@@ -1,0 +1,60 @@
+@-moz-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-webkit-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-o-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+.test {
+  animation-name: tlOne, tlTwo;
+  animation-duration: 1s, 0.5s;
+  animation-timing-function: ease-in, ease-out;
+  animation-iteration-count: 1, 100;
+  animation-delay: 10s, 0s;
+  animation-direction: normal, normal;
+  animation-fill-mode: none, none;
+  animation-play-state: running, running;
+}
+@-moz-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-webkit-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-o-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+.test {
+  animation-name: tlOne, tlTwo;
+  animation-duration: 1s, 0.5s;
+  animation-timing-function: ease-in, ease-out;
+  animation-iteration-count: 1, 100;
+  animation-delay: 10s, 0s;
+  animation-direction: normal, normal;
+  animation-fill-mode: none, none;
+  animation-play-state: running, running;
+}

@@ -1,0 +1,64 @@
+
+
+.test
+  buttron({
+    style: false
+    after:{
+      content: 'test'
+      hover:{
+        anim:{
+          name: 'testAnim'
+          option:{
+           count: infinite
+          }
+          timeline: {
+            '50':{
+              background: green
+            }
+          }
+        }
+      }
+    }
+    first-child:{
+      font-size: 10rem
+      anim:{
+        name: 'kool'
+      }
+      focus:{
+        anim:{
+          name: 'focusIt'
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  style: false
+  after:{
+    content: 'test'
+    hover:{
+      anim:{
+        name: 'testAnim'
+        option:{
+         count: infinite
+        }
+        timeline: {
+          '50':{
+            background: green
+          }
+        }
+      }
+    }
+  }
+  first-child:{
+    font-size: 10rem
+    anim:{
+      name: 'kool'
+    }
+    focus:{
+      anim:{
+        name: 'focusIt'
+      }
+    }
+  }
+})

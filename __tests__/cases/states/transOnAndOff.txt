@@ -1,0 +1,2 @@
+-states/transOnAndOff
+Turn trans on or off via trans obj prop in state.

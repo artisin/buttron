@@ -1,0 +1,2 @@
+-transition/shorthand_OptB/autoGen
+If there are attributes props within the transtion object that are not specified in the shorthand object then intelegently create a transtion for said attribute props using the defaults and if any options as well.

@@ -1,0 +1,2 @@
+-states/basicAnim
+Basic animation within a state

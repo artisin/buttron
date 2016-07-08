@@ -1,0 +1,2 @@
+-mediaQ/defaultMediaQ
+Should pick up default media qs, which are xs, sm, md, lg, hd

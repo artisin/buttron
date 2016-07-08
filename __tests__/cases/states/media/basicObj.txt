@@ -1,0 +1,2 @@
+-states/media/basicObj
+Alright, its time to get a little bit tricky. If there is a media object within a state option treat it as if it was its own seperate entity. The reaon for this option is becuase it allows you to orginize your media q a bit nicer if they are in state. Oh yeah, gotta make sure we pick up anyother state options and transfer them over to the media q state as well. 

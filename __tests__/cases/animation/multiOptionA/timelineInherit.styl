@@ -1,0 +1,46 @@
+
+
+.test
+  buttron({
+    style: false
+    anim:{
+      multiple: true
+      option:{
+        shorthand:{
+          tlTwo: default ease-out 100
+          tlOne: 1s ease-in default 10s
+        }
+      }
+      timeline:{
+        tlOne:{
+          "50%":{
+            background: purple
+          }
+        }
+        koolBrah: tlTwo
+      }
+    }
+  })
+
+
+
+buttron('.test', {
+  style: false
+  anim:{
+    multiple: true
+    option:{
+      shorthand:{
+        tlTwo: default ease-out 100
+        tlOne: 1s ease-in default 10s
+      }
+    }
+    timeline:{
+      tlOne:{
+        "50%":{
+          background: purple
+        }
+      }
+      koolBrah: tlTwo
+    }
+  }
+})

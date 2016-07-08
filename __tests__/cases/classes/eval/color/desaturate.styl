@@ -1,0 +1,18 @@
+
+
+evalDesaturate = ButtronClass('evalDesaturate', {
+  style: false
+  $$:{
+    eval:{
+      bg: "desaturate($$[base], 20%)"
+    }
+    base: red
+  }
+  background: "$$[bg]"
+  color: desaturate(red, 20%)
+})
+
+.test
+  evalDesaturate()
+
+evalDesaturate('.test')

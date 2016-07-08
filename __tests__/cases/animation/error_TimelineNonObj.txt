@@ -1,0 +1,2 @@
+-animation/error_TimelineNonObj
+If user has non-obj timeline values throw warning and don't create the timeline.

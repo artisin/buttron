@@ -1,0 +1,65 @@
+
+
+.test
+  buttron({
+    width: 200px
+    customState:{
+      checked:{
+        trans:{
+          background: green
+        }
+        anim:{
+          name: 'checks'
+          timeline:{
+            '50':{
+              width: 200px
+            }
+          }
+        }
+      }
+      disabled:{
+        trans:{
+          background: red
+        }
+      }
+      noState:{
+        color: red
+        font-size: 3em
+        option:{
+          state: 'required'
+        }
+      }
+    }
+  })
+
+
+buttron('.test', {
+  width: 200px
+  customState:{
+    checked:{
+      trans:{
+        background: green
+      }
+      anim:{
+        name: 'checks'
+        timeline:{
+          '50':{
+            width: 200px
+          }
+        }
+      }
+    }
+    disabled:{
+      trans:{
+        background: red
+      }
+    }
+    noState:{
+      color: red
+      font-size: 3em
+      option:{
+        state: 'required'
+      }
+    }
+  }
+})

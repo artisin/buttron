@@ -1,0 +1,92 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test:hover span {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test > .beerMe {
+  background: #008000;
+}
+.test > .beerMe:hover + span {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test > .beerMe {
+  background: #008000;
+}
+.test:hover > .beerMe + span {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test:hover span {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test > .beerMe {
+  background: #008000;
+}
+.test > .beerMe:hover + span {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test > .beerMe {
+  background: #008000;
+}
+.test:hover > .beerMe + span {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}

@@ -1,0 +1,2 @@
+-elements/transition/customeElmPseudoMulti
+If 'after' and 'before' are passed as customElms together, recognize they are pseudo elements and complie the styles as such independenly.

@@ -1,0 +1,2 @@
+-mediaQ/basicTypeMultiObj
+create media q for each sub type object, could be useful? prbly not, but hay only horses are counting.

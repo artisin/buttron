@@ -1,0 +1,2 @@
+-states/media/stringWithApplyTo
+Should do the same as the basic and then also applyTo, yo.

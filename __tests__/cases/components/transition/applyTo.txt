@@ -1,0 +1,2 @@
+-components/transition/applyTo
+It trans obj within a componenet that is applied to, then apply to said apply to.

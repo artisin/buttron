@@ -1,0 +1,2 @@
+-states/custom/trans/basicTransObj
+If there is a transtion obj within a custom state assume the user wants to have buttron auto gen trans props

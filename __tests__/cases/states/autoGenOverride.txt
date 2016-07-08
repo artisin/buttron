@@ -1,0 +1,2 @@
+-states/autoGenOverride
+Allow the user to override the autoGen of the global transition props if passed {autoGen: false}

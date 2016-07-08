@@ -1,0 +1,39 @@
+
+
+.test
+  buttron({
+    width: 200px
+    hover:{
+      background: green
+      color: red
+      font-size: 2rem
+      option: {
+        //in media Q
+        media:{
+          type: 'md'
+          font-size: 1.5rem
+          color: green
+        }
+        duration: 10s
+      } 
+    }
+  })
+
+  
+buttron('.test', {
+  width: 200px
+  hover:{
+    background: green
+    color: red
+    font-size: 2rem
+    option: {
+      //in media Q
+      media:{
+        type: 'md'
+        font-size: 1.5rem
+        color: green
+      }
+      duration: 10s
+    } 
+  }
+})

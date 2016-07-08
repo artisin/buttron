@@ -1,0 +1,2 @@
+-components/transition/states/inheritTransObj
+Inherit trans obj if defined shorthand or general option. note will only inherit if there is not prop defined.

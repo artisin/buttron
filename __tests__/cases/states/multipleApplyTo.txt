@@ -1,0 +1,2 @@
+-states/multipleApplyTo
+If there is more than one applyTo, apply them to their respective apply to elements.

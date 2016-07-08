@@ -1,0 +1,2 @@
+-animation/stepOption
+Ablity to use step ease within option.

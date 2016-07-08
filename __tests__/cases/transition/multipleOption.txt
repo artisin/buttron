@@ -1,0 +1,2 @@
+-transition/multipleOption
+If there are multiple values for option key pairs they should coreaspond to their respective index position and if there is no said index revert to default value.

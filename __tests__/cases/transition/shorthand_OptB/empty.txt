@@ -1,0 +1,2 @@
+-transition/shorthand_OptB/empty
+When there is a transition object and there are no attributes present and just the shorthand object just pharse said shorthand.

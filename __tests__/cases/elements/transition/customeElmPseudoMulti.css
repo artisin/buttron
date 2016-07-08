@@ -1,0 +1,72 @@
+.test:before {
+  content: '';
+  font-size: 1.1rem;
+  color: #008000;
+  background: #808080;
+  transition-property: font-size, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:hover:before {
+  font-size: 1.5rem;
+  background: #008080;
+  transition-property: font-size, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:after {
+  content: '';
+  font-size: 1.1rem;
+  color: #008000;
+  background: #808080;
+  transition-property: font-size, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:hover:after {
+  font-size: 1.5rem;
+  background: #008080;
+  transition-property: font-size, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:before {
+  content: '';
+  font-size: 1.1rem;
+  color: #008000;
+  background: #808080;
+  transition-property: font-size, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:hover:before {
+  font-size: 1.5rem;
+  background: #008080;
+  transition-property: font-size, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:after {
+  content: '';
+  font-size: 1.1rem;
+  color: #008000;
+  background: #808080;
+  transition-property: font-size, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:hover:after {
+  font-size: 1.5rem;
+  background: #008080;
+  transition-property: font-size, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}

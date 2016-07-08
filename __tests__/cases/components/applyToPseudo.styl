@@ -1,0 +1,37 @@
+
+
+.test
+  buttron({
+    width: 200px
+    component:{
+      span:{
+        background: purple
+        hover:{
+          background: red
+          option:{
+            root: true
+            applyTo: ':first-child'
+            pseudo: true
+          }
+        }
+      }
+    }
+  })
+
+  
+buttron('.test', {
+  width: 200px
+  component:{
+    span:{
+      background: purple
+      hover:{
+        background: red
+        option:{
+          root: true
+          applyTo: ':first-child'
+          pseudo: true
+        }
+      }
+    }
+  }
+})

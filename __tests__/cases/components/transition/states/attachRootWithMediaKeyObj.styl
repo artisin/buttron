@@ -1,0 +1,89 @@
+
+
+.test
+  buttron({
+    width: 200px
+    component:{
+      span:{
+        height: 50px
+        hover:{
+          background: green
+          color: red
+          font-size: 2rem
+          option: { 
+            media:{
+              'xs':{
+                width: 100px
+                option:{
+                  merge: false 
+                  'max-height': 800px
+                }
+              }
+              'lg':{
+                width: 400px
+              }
+              global:{
+                border-radius: 10px
+                option:{
+                  merge: true
+                }
+              }
+            }
+            duration: 0.25s
+            root: true
+            shorthand:{
+              color: default default 0.15s
+              font-size: default default 0.25s
+              //can always specify more options here
+              //since it will not autogen your trans
+              //props globaly if in media
+              width: 0.5s
+              border-radius: 1s default 0.5s
+            }
+          } 
+        }
+      }
+    }
+  })
+  
+buttron('.test', {
+  width: 200px
+  component:{
+    span:{
+      height: 50px
+      hover:{
+        background: green
+        color: red
+        font-size: 2rem
+        option: { 
+          media:{
+            'xs':{
+              width: 100px
+              option:{
+                merge: false 
+                'max-height': 800px
+              }
+            }
+            'lg':{
+              width: 400px
+            }
+            global:{
+              border-radius: 10px
+              option:{
+                merge: true
+              }
+            }
+          }
+          duration: 0.25s
+          root: true
+          shorthand:{
+            color: default default 0.15s
+            font-size: default default 0.25s
+            width: 0.5s
+            border-radius: 1s default 0.5s
+          }
+        } 
+      }
+    }
+  }
+})

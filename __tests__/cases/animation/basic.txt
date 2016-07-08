@@ -1,0 +1,2 @@
+-animation/basic
+Basic global animation. A timeline should be created with the name of whatever the name obj val is assigned to with the timeline corrospoding to the set timeline object. Controll properties should also be generated and appled to the gloabl paretn scoope.

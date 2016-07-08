@@ -1,0 +1,52 @@
+.test {
+  width: 200px;
+}
+.test {
+  transition-property: background, opacity;
+  transition-duration: 2s, 1s;
+  transition-timing-function: sedona, ease-out;
+  transition-delay: 0s, 0s;
+}
+.test:checked {
+  background: #eee;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-timing-function: sedona;
+  transition-delay: 0s;
+}
+.test:disabled {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+.test:invalid {
+  color: #f00;
+}
+.test {
+  width: 200px;
+}
+.test {
+  transition-property: background, opacity;
+  transition-duration: 2s, 1s;
+  transition-timing-function: sedona, ease-out;
+  transition-delay: 0s, 0s;
+}
+.test:checked {
+  background: #eee;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-timing-function: sedona;
+  transition-delay: 0s;
+}
+.test:disabled {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+.test:invalid {
+  color: #f00;
+}

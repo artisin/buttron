@@ -1,0 +1,2 @@
+-mediaQ/basicType
+Basic media q that should create a media query for said type which is 'screen'

@@ -1,0 +1,82 @@
+
+
+.test
+  buttron({
+    width: 200px
+    hover:{
+      background: green
+      color: red
+      font-size: 2rem
+      option: {
+        //key notation 
+        media:{
+          'xs':{
+            width: 100px
+            option:{
+              //with merge false only width and
+              //br will be applied
+              merge: false 
+              'max-height': 800px
+            }
+          }
+          //with and all other props will be
+          //applied due to global merge
+          'lg':{
+            width: 400px
+          }
+          //global props
+          global:{
+            //applied to all
+            border-radius: 10px
+            option:{
+              //merge unless override local
+              merge: true
+            }
+          }
+        }
+        //These options will be applied regardless
+        //the media option within a state is just for
+        //the ease if you want full control use a media
+        //object and specify the state in there
+        duration: 0.25s
+        shorthand:{
+          color: default default 0.15s
+          font-size: default default 0.25s
+        }
+      } 
+    }
+  })
+  
+buttron('.test', {
+  width: 200px
+  hover:{
+    background: green
+    color: red
+    font-size: 2rem
+    option: { 
+      media:{
+        'xs':{
+          width: 100px
+          option:{
+            merge: false 
+            'max-height': 800px
+          }
+        }
+        'lg':{
+          width: 400px
+        }
+        global:{
+          border-radius: 10px
+          option:{
+            merge: true
+          }
+        }
+      }
+      duration: 0.25s
+      shorthand:{
+        color: default default 0.15s
+        font-size: default default 0.25s
+      }
+    } 
+  }
+})

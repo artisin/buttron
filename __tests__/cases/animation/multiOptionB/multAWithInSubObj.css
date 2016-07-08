@@ -1,0 +1,100 @@
+@-moz-keyframes subTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@-webkit-keyframes subTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@-o-keyframes subTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@keyframes subTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@-moz-keyframes subTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@-webkit-keyframes subTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@-o-keyframes subTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@keyframes subTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-name: tlOne, subTlOne, subTlTwo;
+  animation-duration: 1s, 1s, 1s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), ease-in, ease-in;
+  animation-iteration-count: 10, 1, 1;
+  animation-delay: 0s, 0s, 0s;
+  animation-direction: normal, normal, normal;
+  animation-fill-mode: none, none, none;
+  animation-play-state: running, paused, paused;
+}
+@-moz-keyframes subTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@-webkit-keyframes subTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@-o-keyframes subTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@keyframes subTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@-moz-keyframes subTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@-webkit-keyframes subTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@-o-keyframes subTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@keyframes subTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-name: tlOne, subTlOne, subTlTwo;
+  animation-duration: 1s, 1s, 1s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), ease-in, ease-in;
+  animation-iteration-count: 10, 1, 1;
+  animation-delay: 0s, 0s, 0s;
+  animation-direction: normal, normal, normal;
+  animation-fill-mode: none, none, none;
+  animation-play-state: running, paused, paused;
+}

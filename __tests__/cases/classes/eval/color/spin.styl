@@ -1,0 +1,18 @@
+
+
+evalSpin = ButtronClass('evalSpin', {
+  style: false
+  $$:{
+    eval:{
+      bg: "spin($$[base], 90deg)"
+    }
+    base: #ff0000
+  }
+  background: "$$[bg]"
+  color: spin(#ff0000, 90deg)
+})
+
+.test
+  evalSpin()
+
+evalSpin('.test')

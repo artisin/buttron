@@ -1,0 +1,2 @@
+-animation/shorthandMulti
+More or less of a convenant shortcut hack. But if more than one shorthand is specified you can inherit another timeline without having to override. I am not sure it I will even document this.

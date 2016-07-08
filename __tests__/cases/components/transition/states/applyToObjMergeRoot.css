@@ -1,0 +1,144 @@
+.test {
+  width: 400px;
+  height: 100px;
+  background: #ffc0cb;
+}
+.test > .beerOne {
+  height: 75px;
+  width: 250px;
+  background: rgba(0,128,0,0.3);
+  border-radius: 0px;
+  z-index: 10;
+  transition-property: font-size, background, border-radius;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s, 0s;
+}
+.test > .beerOne:hover {
+  border-radius: 10px;
+  transition-property: border-radius;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:hover > .beerOne {
+  background: #800080;
+  transition-property: border-radius, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test > .beerOne span {
+  transition-property: color, font-size, border-color;
+  transition-duration: 3s, 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 1s, 0s, 0s;
+}
+.test > .beerOne:hover span {
+  color: #f00;
+  transition-property: color;
+  transition-duration: 3s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 1s;
+}
+.test:hover > .beerOne span {
+  font-size: 3rem;
+  border-color: #fff;
+  transition-property: color, font-size, border-color;
+  transition-duration: 3s, 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 1s, 0s, 0s;
+}
+.test > .beerOne > .beerTwo {
+  background: #008080;
+  transition-property: background, color;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test > .beerOne > .beerTwo:hover {
+  background: #000;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:hover > .beerOne > .beerTwo {
+  color: #f00;
+  transition-property: background, color;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test {
+  width: 400px;
+  height: 100px;
+  background: #ffc0cb;
+}
+.test > .beerOne {
+  height: 75px;
+  width: 250px;
+  background: rgba(0,128,0,0.3);
+  border-radius: 0px;
+  z-index: 10;
+  transition-property: font-size, background, border-radius;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s, 0s;
+}
+.test > .beerOne:hover {
+  border-radius: 10px;
+  transition-property: border-radius;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:hover > .beerOne {
+  background: #800080;
+  transition-property: border-radius, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test > .beerOne span {
+  transition-property: color, font-size, border-color;
+  transition-duration: 3s, 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 1s, 0s, 0s;
+}
+.test > .beerOne:hover span {
+  color: #f00;
+  transition-property: color;
+  transition-duration: 3s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 1s;
+}
+.test:hover > .beerOne span {
+  font-size: 3rem;
+  border-color: #fff;
+  transition-property: color, font-size, border-color;
+  transition-duration: 3s, 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 1s, 0s, 0s;
+}
+.test > .beerOne > .beerTwo {
+  background: #008080;
+  transition-property: background, color;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test > .beerOne > .beerTwo:hover {
+  background: #000;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:hover > .beerOne > .beerTwo {
+  color: #f00;
+  transition-property: background, color;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}

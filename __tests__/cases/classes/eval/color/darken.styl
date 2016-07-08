@@ -1,0 +1,18 @@
+
+
+evalDarken = ButtronClass('evalDarken', {
+  style: false
+  $$:{
+    eval:{
+      bg: "darken($$[base], 20%)"
+    }
+    base: red
+  }
+  background: "$$[bg]"
+  color: darken(red, 20%)
+})
+
+.test
+  evalDarken()
+
+evalDarken('.test')

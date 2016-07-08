@@ -1,0 +1,28 @@
+.test {
+  width: 300px;
+}
+.test {
+  background: #008000;
+  height: 500px;
+  color: #f00;
+  letter-spacing: #008000;
+  font-size: 2rem;
+  transition-property: background, height, color, letter-spacing, font-size;
+  transition-duration: 1s, 1s, 1s, 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), ease-in, ease-out;
+  transition-delay: 0s, 0s, 0s, 0.2s, 0.25s;
+}
+.test {
+  width: 300px;
+}
+.test {
+  background: #008000;
+  height: 500px;
+  color: #f00;
+  letter-spacing: #008000;
+  font-size: 2rem;
+  transition-property: background, height, color, letter-spacing, font-size;
+  transition-duration: 1s, 1s, 1s, 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), ease-in, ease-out;
+  transition-delay: 0s, 0s, 0s, 0.2s, 0.25s;
+}

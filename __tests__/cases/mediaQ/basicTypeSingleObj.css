@@ -1,0 +1,26 @@
+.test {
+  width: 200px;
+}
+@media only screen {
+  .test {
+    width: 100px;
+  }
+}
+@media only tv {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen {
+  .test {
+    width: 100px;
+  }
+}
+@media only tv {
+  .test {
+    width: 100px;
+  }
+}

@@ -1,0 +1,2 @@
+-animation/timelineUnitNotation
+Allow for both percent and un-percent(?) units for timeline. If a unit in not in percent formate, formate it be so.

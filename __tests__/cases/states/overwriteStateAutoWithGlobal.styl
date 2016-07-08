@@ -1,0 +1,83 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 300px
+    transition:{
+      shorthand:{
+        font-size: 10s
+        background: 0.25s default 1s
+        color: default ease-in 2s
+        letter-spacing: 4s default 3s
+      }
+    }
+    hover:{
+      transition:{
+        one: {
+          font-size: 1.2rem
+        }
+        two:{
+          background: green
+          color: yellow
+          shorthand:{
+            background: 2s
+            color: default ease-out
+          }
+        }
+        three: {
+          letter-spacing: 5px
+          option:{
+            duration: 3s
+          }
+        }
+        four:{
+          border: 5px solid blue
+        }
+        globalOption:{
+          duration: 1s
+        }
+      }
+    }
+  })
+
+
+buttron('.test', {
+  style: false
+  width: 300px
+  transition:{
+    shorthand:{
+      font-size: 10s
+      background: 0.25s default 1s
+      color: default ease-in 2s
+      letter-spacing: 4s default 3s
+    }
+  }
+  hover:{
+    transition:{
+      one: {
+        font-size: 1.2rem
+      }
+      two:{
+        background: green
+        color: yellow
+        shorthand:{
+          background: 2s
+          color: default ease-out
+        }
+      }
+      three: {
+        letter-spacing: 5px
+        option:{
+          duration: 3s
+        }
+      }
+      four:{
+        border: 5px solid blue
+      }
+      globalOption:{
+        duration: 1s
+      }
+    }
+  }
+})

@@ -1,0 +1,2 @@
+-mediaQ/mixin/shorthand
+If the user specifies a string as their type assume they are reffering to the default media q's which then should be apply via the at mix in and if its at the upper or lower limit use da min or max 

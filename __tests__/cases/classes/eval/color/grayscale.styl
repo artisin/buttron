@@ -1,0 +1,18 @@
+
+
+evalGrayscale = ButtronClass('evalGrayscale', {
+  style: false
+  $$:{
+    eval:{
+      bg: "grayscale($$[base])"
+    }
+    base: #fd0cc7
+  }
+  background: "$$[bg]"
+  color: grayscale(#fd0cc7)
+})
+
+.test
+  evalGrayscale()
+
+evalGrayscale('.test')

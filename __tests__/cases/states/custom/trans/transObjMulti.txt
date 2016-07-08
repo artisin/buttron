@@ -1,0 +1,2 @@
+-states/custom/trans/transObjMulti
+If there is multiple sub-chlidren objs in a trans of a custom state work it like you would expect plus we shouldn't leave the globalOption out to dry cus hes a pal. 

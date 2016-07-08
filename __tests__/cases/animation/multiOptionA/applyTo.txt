@@ -1,0 +1,2 @@
+-animation/multiOptionA/applyTo
+If applyTo, apply anim to said applyTo.

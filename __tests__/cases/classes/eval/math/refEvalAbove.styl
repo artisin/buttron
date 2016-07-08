@@ -1,0 +1,22 @@
+
+
+evalMathRefAbove = ButtronClass('evalMathRefAbove', {
+  style: false
+  $$:{
+    eval:{
+      w: "math($$[base] * 20px / 2)"
+      h: "math(($$[w] * 20) / 1.5)"
+      width: "math($$[h] * 0.1)"
+    }
+    base: 10
+  }
+  height: "$$[w]"
+  width: "$$[h]"
+  border: "$$[width]" solid green
+})
+
+.test
+  evalMathRefAbove()
+
+
+evalMathRefAbove('.test')

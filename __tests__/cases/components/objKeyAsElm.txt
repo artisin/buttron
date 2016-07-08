@@ -1,0 +1,2 @@
+-components/objKeyAsElm
+If not element specified on component default to key as eleement. 

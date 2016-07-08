@@ -1,0 +1,14 @@
+.test {
+  border-width: 30px;
+  transition-property: left, color, background, right;
+  transition-duration: 1s, 2s, 0.5s, 0.5s;
+  transition-timing-function: ease-in, funky-town, cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 2s, 0s, 0s, 0s;
+}
+.test {
+  border-width: 30px;
+  transition-property: left, color, background, right;
+  transition-duration: 1s, 2s, 0.5s, 0.5s;
+  transition-timing-function: ease-in, funky-town, cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 2s, 0s, 0s, 0s;
+}

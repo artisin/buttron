@@ -1,0 +1,2 @@
+-transition/autoGenAll
+If your has a trans option object but no state objects and the trans object does not specify property then default to 'all' and set the defined options.

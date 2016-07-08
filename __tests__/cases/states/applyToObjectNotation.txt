@@ -1,0 +1,2 @@
+-states/applyToObjectNotation
+ApplyTo with object notation. One object has applyTo the other does not. The applyTo object should be applied to said applyTo while the other object operates as it noramly should.

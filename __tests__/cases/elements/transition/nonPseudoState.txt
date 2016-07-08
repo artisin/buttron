@@ -1,0 +1,2 @@
+-elements/transition/nonPseudoState
+Elements that are non pseudo with states should be complied as such.

@@ -1,0 +1,1 @@
+Create and implement private vars within a class.

@@ -1,0 +1,2 @@
+-trans/shorthjand_OptC/basic
+When shorthand is specifed within the options object the shorthand will inherit said option trans props.

@@ -1,0 +1,2 @@
+-elements/animation/withinState
+If element has an animation within a state complie and process as such.

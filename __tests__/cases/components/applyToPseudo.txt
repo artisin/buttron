@@ -1,0 +1,2 @@
+-components/applyToPseudo
+should allow you to create a pseudo applyTo selector becuase who know you might need to.

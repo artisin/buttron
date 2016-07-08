@@ -1,0 +1,2 @@
+-states/custom/trans/transObjSingle
+If in a trans object assume the user wants to apply trans to props and such, although, the user can always override this by passing transition: false into the options.

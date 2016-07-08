@@ -1,0 +1,34 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 200px
+    trans:{
+      option:{
+        ease: ease-in
+        property: left right
+        duration: 3s 2.2s
+      }
+      shorthand:{
+        background: 1s
+        font-size: 0.5s ease-out 0.25s
+      }
+    }
+  })
+
+buttron('.test', {
+  style: false
+  width: 200px
+  transition:{
+    option:{
+      ease: ease-in
+      property: left right
+      duration: 3s 2.2s
+    }
+    shorthand:{
+      background: 1s
+      font-size: 0.5s ease-out 0.25s
+    }
+  }
+})

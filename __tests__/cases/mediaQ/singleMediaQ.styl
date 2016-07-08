@@ -1,0 +1,92 @@
+
+
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        type: 'screen'
+        'max-width': 800px
+        'min-width': 200px
+      }
+    }
+  })
+
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      type: 'screen'
+      'max-width': 800px
+      'min-width': 200px
+    }
+  }
+})
+
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        type: {
+          media: 'screen'
+          condition: 'only'
+        }
+        'max-width': 800px
+        'min-width': 200px
+      }
+    }
+  })
+
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      type: {
+        media: 'screen'
+        condition: 'only'
+      }
+      'max-width': 800px
+      'min-width': 200px
+    }
+  }
+})
+
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        type: {
+          media: 'screen'
+          condition: 'not'
+        }
+        feature:{
+          'max-width': 800px
+          'min-width': 200px
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      type: {
+        media: 'screen'
+        condition: 'not'
+      }
+      feature:{
+        'max-width': 800px
+        'min-width': 200px
+      }
+    }
+  }
+})

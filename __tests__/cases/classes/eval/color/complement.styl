@@ -1,0 +1,18 @@
+
+
+evalComplement = ButtronClass('evalComplement', {
+  style: false
+  $$:{
+    eval:{
+      bg: "complement($$[base])"
+    }
+    base: #fd0cc7
+  }
+  background: "$$[bg]"
+  color: complement(#fd0cc7)
+})
+
+.test
+  evalComplement()
+
+evalComplement('.test')

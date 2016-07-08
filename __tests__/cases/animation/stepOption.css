@@ -1,0 +1,20 @@
+.test {
+  animation-name: stepTest;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(5, start);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.test {
+  animation-name: stepTest;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(5, start);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}

@@ -1,0 +1,48 @@
+.test {
+  width: 200px;
+}
+.test:required > span {
+  font-size: 2em;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:required > span:hover {
+  color: #008000;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:required > span:focus {
+  color: #008000;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test:required > span {
+  font-size: 2em;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:required > span:hover {
+  color: #008000;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:required > span:focus {
+  color: #008000;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}

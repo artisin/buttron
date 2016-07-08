@@ -1,0 +1,100 @@
+@-moz-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-webkit-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-o-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-moz-keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@-webkit-keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@-o-keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-name: tlOne, tlTwo;
+  animation-duration: 0.5s, 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1, 1;
+  animation-delay: 0s, 0s;
+  animation-direction: normal, normal;
+  animation-fill-mode: none, none;
+  animation-play-state: running, running;
+}
+@-moz-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-webkit-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-o-keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@-moz-keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@-webkit-keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@-o-keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-name: tlOne, tlTwo;
+  animation-duration: 0.5s, 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1, 1;
+  animation-delay: 0s, 0s;
+  animation-direction: normal, normal;
+  animation-fill-mode: none, none;
+  animation-play-state: running, running;
+}

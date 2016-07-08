@@ -1,0 +1,2 @@
+-states/setGlobalWithTrans
+If a trans object is in the same scope as state and has options set on it inherit those options on the global target. Note you can do the same using shorthand although that is targeted per attribute.

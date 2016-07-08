@@ -1,0 +1,66 @@
+.test {
+  width: 400px;
+}
+@-moz-keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+@-webkit-keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+@-o-keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+.test {
+  animation-name: test;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: paused;
+}
+.test {
+  width: 400px;
+}
+@-moz-keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+@-webkit-keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+@-o-keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+.test {
+  animation-name: test;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: paused;
+}

@@ -1,0 +1,60 @@
+.test:first-child {
+  font-size: 1rem;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:first-child:hover {
+  font-size: 2rem;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:nth-last-child(2) {
+  color: #f00;
+  background: #008000;
+  transition-property: color, background;
+  transition-duration: 1s, 2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:nth-last-child(2):focus {
+  color: #00f;
+  background: #ff0;
+  transition-property: color, background;
+  transition-duration: 1s, 2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:first-child {
+  font-size: 1rem;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:first-child:hover {
+  font-size: 2rem;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:nth-last-child(2) {
+  color: #f00;
+  background: #008000;
+  transition-property: color, background;
+  transition-duration: 1s, 2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:nth-last-child(2):focus {
+  color: #00f;
+  background: #ff0;
+  transition-property: color, background;
+  transition-duration: 1s, 2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}

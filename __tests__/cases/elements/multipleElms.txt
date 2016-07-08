@@ -1,0 +1,2 @@
+-elements/multipleElms
+If multiple elements passed into a customElement then phrase each one independly and apply the options defined in the customElement to each.

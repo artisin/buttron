@@ -1,0 +1,2 @@
+-basic/customProps
+Apply custom props. Overwrite default props if exsist. Phrase string props, and handle props that are not string that have multpile attriubes.

@@ -1,0 +1,2 @@
+-states/custom/objNotation
+When you use obj notation within a custom state it handle each obj as indv customState and follow the same protocall except if no state is defined default to the key.

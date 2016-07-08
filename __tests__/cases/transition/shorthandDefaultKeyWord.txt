@@ -1,0 +1,2 @@
+-transition/shorthandDefaultKeyWord
+Within shorthand if the keyword default is used then the value should be the defualt value. This allows the user not to have to guess of figure out the value. Mental-stress, its for real.

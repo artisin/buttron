@@ -1,0 +1,65 @@
+
+
+.test
+  buttron({
+    width: 300px
+    hover:{
+      transition:{
+        one: {
+          font-size: 1.2rem
+          border-radius: 5px
+          shorthand:{
+            font-size: 2s
+          }
+        }
+        two:{
+          background: green
+          color: teal
+          option:{
+            applyTo: "span + .kool"
+            delay: 2s
+            shorthand:{
+              background: 1s
+              color: 1.1s default 1.1s
+            }
+          }
+        }
+        globalOption:{
+          ease: funky-town
+          delay: 1s
+        }
+      }
+    }
+  })
+  
+
+buttron('.test', {
+  width: 300px
+  hover:{
+    transition:{
+      one: {
+        font-size: 1.2rem
+        border-radius: 5px
+        shorthand:{
+          font-size: 2s
+        }
+      }
+      two:{
+        background: green
+        color: teal
+        option:{
+          applyTo: "span + .kool"
+          delay: 2s
+          shorthand:{
+            background: 1s
+            color: 1.1s default 1.1s
+          }
+        }
+      }
+      globalOption:{
+        ease: funky-town
+        delay: 1s
+      }
+    }
+  }
+})

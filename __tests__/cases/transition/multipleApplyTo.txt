@@ -1,0 +1,2 @@
+-transition/multipleApplyTo
+If there are multiple applyTo's in the global object apply them to their respective apply to element while the other non-apply-to should act like expected.

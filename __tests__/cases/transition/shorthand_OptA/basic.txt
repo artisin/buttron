@@ -1,0 +1,2 @@
+-trans/shorthand_optA/basic
+If a shorthand object is declared inside a transtion it will be formated to longhand and any non-specified properties will inhert the set defaults.

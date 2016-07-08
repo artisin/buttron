@@ -1,0 +1,2 @@
+-states/custom/anim/basic
+should be able to create a animation within a custom state

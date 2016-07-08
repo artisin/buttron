@@ -1,0 +1,2 @@
+-basic/inheritAndCache
+Inherit class and use cache to combine class and id as one. Production on.

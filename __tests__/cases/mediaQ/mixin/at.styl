@@ -1,0 +1,104 @@
+
+
+
+//min - end
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        mixin: {
+          at: 'xs'
+        }
+      }
+    }
+  })
+
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        mixin: {
+          at: 'md'
+        }
+      }
+    }
+  })
+
+//in option obj as prop
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        at: 'md'
+      }
+    }
+  })
+
+//end - max
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        mixin: {
+          at: 'hd'
+        }
+      }
+    }
+  })
+
+//min - end
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      mixin: {
+        at: 'xs'
+      }
+    }
+  }
+})
+
+
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      mixin: {
+        at: 'md'
+      }
+    }
+  }
+})
+
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      at: 'md'
+    }
+  }
+})
+
+//end - max
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      mixin: {
+        at: 'hd'
+      }
+    }
+  }
+})

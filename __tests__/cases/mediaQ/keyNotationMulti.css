@@ -1,0 +1,66 @@
+.test {
+  background: #eee;
+}
+@media only screen and (max-width: 400px) and (max-height: 400px) {
+  .test {
+    color: #fff;
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) and (max-height: 400px) {
+  .test {
+    color: #fff;
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .test {
+    color: #fff;
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    color: #fff;
+    width: 800px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test {
+    color: #fff;
+    width: 800px;
+  }
+}
+.test {
+  background: #eee;
+}
+@media only screen and (max-width: 400px) and (max-height: 400px) {
+  .test {
+    color: #fff;
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) and (max-height: 400px) {
+  .test {
+    color: #fff;
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .test {
+    color: #fff;
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    color: #fff;
+    width: 800px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test {
+    color: #fff;
+    width: 800px;
+  }
+}

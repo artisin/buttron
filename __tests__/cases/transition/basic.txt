@@ -1,0 +1,2 @@
+-transition/basic
+Create a basic transtion in the parent scoope via the transtion object with a single property.

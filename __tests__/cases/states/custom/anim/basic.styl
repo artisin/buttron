@@ -1,0 +1,32 @@
+
+
+.test
+  buttron({
+    width: 200px
+    customState:{
+      state: 'checked'
+      anim:{
+        name: 'tlTest'
+        timeline:{
+          '50':{
+            font-size: 2em
+          }
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  width: 200px
+  customState:{
+    state: 'checked'
+    anim:{
+      name: 'tlTest'
+      timeline:{
+        '50':{
+          font-size: 2em
+        }
+      }
+    }
+  }
+})

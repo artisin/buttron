@@ -1,0 +1,104 @@
+
+
+.test
+  buttron({
+    width: 200px
+    background: yellow
+    hover:{
+      trans:{
+        one:{
+          background: pink
+        }
+        two:{
+          color: green
+          option:{
+            autoGen: false
+          }
+        }
+      }
+    }
+  })
+
+.test
+  buttron({
+    width: 200px
+    background: yellow
+    component:{
+      '.beerMe': {
+        background: green
+        hover: {
+          color: pink
+          background: orange
+          option:{
+            applyTo: 'span'
+            duration: 1s
+            autoGen: false
+            root: true
+          }
+        }
+      },
+      p:{
+        font-size: 2em
+        hover:{
+          color: pink
+          background: orange
+          option:{
+            duration: 1s
+            root: true
+          }
+        }
+      }
+    }
+  })
+
+
+buttron('.test', {
+  width: 200px
+  background: yellow
+  hover:{
+    trans:{
+      one:{
+        background: pink
+      }
+      two:{
+        color: green
+        option:{
+          autoGen: false
+        }
+      }
+    }
+  }
+})
+
+
+
+buttron('.test', {
+  width: 200px
+  background: yellow
+  component:{
+    '.beerMe': {
+      background: green
+      hover: {
+        color: pink
+        background: orange
+        option:{
+          applyTo: 'span'
+          duration: 1s
+          autoGen: false
+          root: true
+        }
+      }
+    },
+    p:{
+      font-size: 2em
+      hover:{
+        color: pink
+        background: orange
+        option:{
+          duration: 1s
+          root: true
+        }
+      }
+    }
+  }
+})

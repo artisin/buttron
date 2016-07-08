@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+.test {
+  transition-property: background;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:checked {
+  background: #eee;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test {
+  width: 200px;
+}
+.test {
+  transition-property: background;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}
+.test:checked {
+  background: #eee;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s;
+}

@@ -1,0 +1,35 @@
+
+
+.test
+  buttron({
+    style: false
+    style: false
+    customEl:{
+      option:{
+        element: "nth-child(2)"
+      }
+      background: green
+    }
+    customElementMulti:{
+      option:{
+        element: 'before' 'after'
+      }
+      content: 'test'
+    }
+  })
+
+buttron('.test', {
+  style: false
+  customEl:{
+    option:{
+      element: "nth-child(2)"
+    }
+    background: green
+  }
+  customElementMulti:{
+    option:{
+      element: before after
+    }
+    content: 'test'
+  }
+})

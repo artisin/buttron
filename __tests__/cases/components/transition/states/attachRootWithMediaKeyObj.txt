@@ -1,0 +1,2 @@
+-components/transition/states/attachRootWithMediaKeyObj
+Should attach to root in global and media scope.

@@ -1,0 +1,2 @@
+-states/autoGenOverrideObj
+Autogen override should also work intelligently within obj notation. 

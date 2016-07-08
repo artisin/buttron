@@ -1,0 +1,49 @@
+
+
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        mixin:{
+          'to-width': '800px'
+        }
+      }
+    }
+  })
+  
+.test
+  buttron({
+    width: 200px
+    media:{
+      width: 100px
+      option:{
+        'to-width': '800px'
+      }
+    }
+  })
+  
+
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      mixin:{
+        'to-width': '800px'
+      }
+    }
+  }
+})
+  
+
+buttron('.test', {
+  width: 200px
+  media:{
+    width: 100px
+    option:{
+      'to-width': '800px'
+    }
+  }
+})

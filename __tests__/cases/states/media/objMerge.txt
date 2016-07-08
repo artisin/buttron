@@ -1,0 +1,2 @@
+-states/media/objMerge
+Like the basicObj but with merge: true passed which will inherit the parent state props and overwright the props the user specifies.

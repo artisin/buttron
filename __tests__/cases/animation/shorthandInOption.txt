@@ -1,0 +1,2 @@
+-animation/shorthandInOption
+Shorthand can be specified within option.

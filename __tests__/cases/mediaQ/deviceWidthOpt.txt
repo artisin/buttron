@@ -1,0 +1,2 @@
+-mediaQ/deviceWidthOpt
+When 'device-width: true' is passed in the option object change all min/max height/width to device q

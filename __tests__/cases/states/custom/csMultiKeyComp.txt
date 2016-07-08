@@ -1,0 +1,2 @@
+-states/custom/csMultiKeyComp
+Becuase sometime you will need to have a customStaste in a component within a customState with multile keys. Basically, it should cycle on through.

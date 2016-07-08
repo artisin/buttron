@@ -1,0 +1,22 @@
+.test {
+  width: 200px;
+}
+.test {
+  background: #008000;
+  color: #f00;
+  transition-property: background, color;
+  transition-duration: 1s, 1s;
+  transition-timing-function: ease-in, ease-in;
+  transition-delay: 2s, 2s;
+}
+.test {
+  width: 200px;
+}
+.test {
+  background: #008000;
+  color: #f00;
+  transition-property: background, color;
+  transition-duration: 1s, 1s;
+  transition-timing-function: ease-in, ease-in;
+  transition-delay: 2s, 2s;
+}

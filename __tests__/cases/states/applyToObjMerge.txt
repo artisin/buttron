@@ -1,0 +1,2 @@
+-states/applyToObjMerge
+If there is two diffrent trans objects a with the same applyTo merge their props together.

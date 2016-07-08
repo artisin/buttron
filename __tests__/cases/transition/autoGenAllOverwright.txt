@@ -1,0 +1,2 @@
+-transition/autoGenAllOverwright
+If there is a trans object with just options and the property is defined do not default to all and use said property.

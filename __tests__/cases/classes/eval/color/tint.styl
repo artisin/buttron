@@ -1,0 +1,18 @@
+
+
+evalTint = ButtronClass('evalTint', {
+  style: false
+  $$:{
+    eval:{
+      bg: "tint($$[base], 66%)"
+    }
+    base: #fd0cc7
+  }
+  background: "$$[bg]"
+  color: tint(#fd0cc7,66%)
+})
+
+.test
+  evalTint()
+
+evalTint('.test')

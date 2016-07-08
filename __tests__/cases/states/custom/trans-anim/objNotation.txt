@@ -1,0 +1,2 @@
+-states/custom/trans-anim/objNotation
+Should also be able to handle object noation within the trans or anim object.

@@ -1,0 +1,71 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 200px
+    hover:{
+      transition:{
+        one:{
+          background: green
+        }
+        two:{
+          color: green
+          option:{
+            duration: 2s
+          }
+        }
+      }
+    }
+    active:{
+      transition:{
+        one:{
+          font-size: 2s
+          option:{
+            ease: ease-in
+          }
+        }
+        two:{
+          border-color: blue
+          option: {
+            delay: 2s
+          }
+        }
+      }
+    }
+  })
+  
+  
+buttron('.test', {
+  style: false
+  width: 200px
+  hover:{
+    transition:{
+      one:{
+        background: green
+      }
+      two:{
+        color: green
+        option:{
+          duration: 2s
+        }
+      }
+    }
+  }
+  active:{
+    transition:{
+      one:{
+        font-size: 2s
+        option:{
+          ease: ease-in
+        }
+      }
+      two:{
+        border-color: blue
+        option: {
+          delay: 2s
+        }
+      }
+    }
+  }
+})

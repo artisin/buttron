@@ -1,0 +1,2 @@
+-mediaQ/basicFreatureObj
+Basic feature implementation that will defualt to media type of all if not specified

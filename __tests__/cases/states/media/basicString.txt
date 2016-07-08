@@ -1,0 +1,2 @@
+-states/media/basicString
+When passed an media option of just a string assume you only wants to apply that mediaQ to said string via the shorthand. In doing such only create media query state with no global.

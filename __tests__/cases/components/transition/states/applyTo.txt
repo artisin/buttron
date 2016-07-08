@@ -1,0 +1,2 @@
+-components/transition/states/applyTo
+If `applyTo` is passed within a state that is in a component apply to said states component.

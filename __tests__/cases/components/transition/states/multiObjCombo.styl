@@ -1,0 +1,60 @@
+
+
+.test
+  buttron({
+    style: false
+    component:{
+      span:{
+        hover:{
+          one:{
+            background: red
+          }
+          two:{
+            color: green
+            option:{
+              root: true
+            }
+          }
+          three:{
+            font-size: 1.4rem
+            option:{
+              root: true
+              applyTo: '+ .kool'
+            }
+          }
+          globalOption:{
+            duration: 1s
+          }
+        }
+      }
+    }
+  })
+  
+buttron('.test', {
+  style: false
+  component:{
+    span:{
+      hover:{
+        one:{
+          background: red
+        }
+        two:{
+          color: green
+          option:{
+            root: true
+          }
+        }
+        three:{
+          font-size: 1.4rem
+          option:{
+            root: true
+            applyTo: '+ .kool'
+          }
+        }
+        globalOption:{
+          duration: 1s
+        }
+      }
+    }
+  }
+})

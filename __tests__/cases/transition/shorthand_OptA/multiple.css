@@ -1,0 +1,22 @@
+.test {
+  width: 200px;
+}
+.test {
+  background: #008000;
+  font-size: 2rem;
+  transition-property: background, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), ease-out;
+  transition-delay: 0s, 0.25s;
+}
+.test {
+  width: 200px;
+}
+.test {
+  background: #008000;
+  font-size: 2rem;
+  transition-property: background, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), ease-out;
+  transition-delay: 0s, 0.25s;
+}

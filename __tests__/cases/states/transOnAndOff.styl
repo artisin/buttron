@@ -1,0 +1,44 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 200px
+    hover:{
+      background: green
+      transition: false
+    }
+    link:{
+      color: green
+      transition: true
+    }
+    visited:{
+      transition:{
+        font-weight: bold
+        option:{
+          duration: 2s
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  style: false
+  width: 200px
+  hover:{
+    background: green
+    transition: false
+  }
+  link:{
+    color: green
+    transition: true
+  }
+  visited:{
+    transition:{
+      font-weight: bold
+      option:{
+        duration: 2s
+      }
+    }
+  }
+})

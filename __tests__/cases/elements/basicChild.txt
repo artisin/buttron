@@ -1,0 +1,2 @@
+-elements/basicChild
+If regex match of `-child` consider it to be an element and compile it as such.

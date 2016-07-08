@@ -1,0 +1,2 @@
+-transition/applyTo
+If there is an applyTo in a global transition it should append said applyTo to the end of the selector.

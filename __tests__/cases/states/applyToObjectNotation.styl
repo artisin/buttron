@@ -1,0 +1,55 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 300px
+    hover:{
+      transition:{
+        one: {
+          font-size: 1.2rem
+        }
+        two:{
+          background: green
+          color: teal
+          option:{
+            applyTo: "span + .kool"
+            shorthand:{
+              background: 1s
+              color: 1.1s default 1.1s
+            }
+          }
+        }
+        globalOption:{
+          delay: 0.1s
+        }
+      }
+    }
+  })
+
+
+buttron('.test', {
+  style: false
+  width: 300px
+  hover:{
+    transition:{
+      one: {
+        font-size: 1.2rem
+      }
+      two:{
+        background: green
+        color: teal
+        option:{
+          applyTo: "span + .kool"
+          shorthand:{
+            background: 1s
+            color: 1.1s default 1.1s
+          }
+        }
+      }
+      globalOption:{
+        delay: 0.1s
+      }
+    }
+  }
+})

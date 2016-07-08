@@ -1,0 +1,66 @@
+.test {
+  width: 400px;
+}
+@-moz-keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+@-webkit-keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+@-o-keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+.test {
+  animation-name: kool, xool;
+  animation-duration: 1s, 10s;
+  animation-timing-function: ease-in, ease-out;
+  animation-iteration-count: 1, 1;
+  animation-delay: 5s, 0s;
+  animation-direction: normal, normal;
+  animation-fill-mode: none, none;
+  animation-play-state: paused, paused;
+}
+.test {
+  width: 400px;
+}
+@-moz-keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+@-webkit-keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+@-o-keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+.test {
+  animation-name: kool, xool;
+  animation-duration: 1s, 10s;
+  animation-timing-function: ease-in, ease-out;
+  animation-iteration-count: 1, 1;
+  animation-delay: 5s, 0s;
+  animation-direction: normal, normal;
+  animation-fill-mode: none, none;
+  animation-play-state: paused, paused;
+}

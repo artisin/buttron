@@ -1,0 +1,52 @@
+
+
+.test
+  buttron({
+    width: 200px
+    hover:{
+      trans:{
+        one:{
+          background: green
+          option:{
+            applyTo: 'span'
+            duration: 3s
+          }
+        }
+        two:{
+          font-size: 3rem
+          option:{
+            applyTo: 'span'
+            delay: 2s
+          }
+        }
+        three:{
+          width: 300px
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  width: 200px
+  hover:{
+    trans:{
+      one:{
+        background: green
+        option:{
+          applyTo: 'span'
+          duration: 3s
+        }
+      }
+      two:{
+        font-size: 3rem
+        option:{
+          applyTo: 'span'
+          delay: 2s
+        }
+      }
+      three:{
+        width: 300px
+      }
+    }
+  }
+})

@@ -1,0 +1,20 @@
+$$bgColor = red
+$$fz = 3rem
+
+privateVars = ButtronClass('privateVars', {
+  style: false
+  $$:{
+    bgColor: #1ABC9C
+    borderWidth: 5px
+    borderColor: #9B59B6
+    fz: 1.2rem
+  }
+  background: "$$[bgColor]"
+  font-size: "$$[fz]"
+  border: "$$[borderWidth]" solid "$$[borderColor]"
+})
+
+.test
+  privateVars()
+
+privateVars('.test')

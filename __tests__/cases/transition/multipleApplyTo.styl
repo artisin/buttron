@@ -1,0 +1,75 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 300px
+    trans:{
+      one: {
+        font-size: 1.2rem
+      }
+      two:{
+        background: green
+        color: yellow
+        shorthand:{
+          background: 2s
+          color: default ease-out
+        }
+        option:{
+          applyTo: span
+        }
+      }
+      three: {
+        letter-spacing: 5px
+        option:{
+          duration: 3s
+        }
+      }
+      four:{
+        border: 5px solid blue
+        option:{
+          applyTo: '~ .kool'
+        }
+      }
+      globalOption:{
+        duration: 1s
+      }
+    }
+  })
+  
+
+buttron('.test', {
+  style: false
+  width: 300px
+  transition:{
+    one: {
+      font-size: 1.2rem
+    }
+    two:{
+      background: green
+      color: yellow
+      shorthand:{
+        background: 2s
+        color: default ease-out
+      }
+      option:{
+        applyTo: span
+      }
+    }
+    three: {
+      letter-spacing: 5px
+      option:{
+        duration: 3s
+      }
+    }
+    four:{
+      border: 5px solid blue
+      option:{
+        applyTo: '~ .kool'
+      }
+    }
+    globalOption:{
+      duration: 1s
+    }
+  }
+})

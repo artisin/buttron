@@ -1,0 +1,2 @@
+-animation/multiOptionA/timelineInherit
+If a timeline is not an object but rather a string assume the user is inheriting said timeline.  

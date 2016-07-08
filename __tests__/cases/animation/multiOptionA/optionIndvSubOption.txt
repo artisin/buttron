@@ -1,0 +1,2 @@
+-animation/multiOptionA/optionIndvSubOption
+If there are sub-objs in the option object and those keys corrispond to a timeline name then prioritize those options and treat the outside options as global option per-se.

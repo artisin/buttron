@@ -1,0 +1,2 @@
+-elements/animation/basicGlobal
+If there is an animation within an element apply it to the global scoope of said element.

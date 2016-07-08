@@ -1,0 +1,2 @@
+-animation/shorthand
+Defined name key, with shorthand object whos key is not set to name due to the defined name key. Shorthand uses the default key and option to set new default for scoope. 

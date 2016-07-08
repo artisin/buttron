@@ -1,0 +1,12 @@
+.test:last-of-type {
+  background: #008000;
+}
+.test:nth-of-type(2) {
+  background: #008000;
+}
+.test:last-of-type {
+  background: #008000;
+}
+.test:nth-of-type(2) {
+  background: #008000;
+}

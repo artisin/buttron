@@ -1,0 +1,2 @@
+-components/transition/states/applyToObjMergeRoot
+If this breaks your in for a mind-melt. But basically what should be happing is it should go through the trans object and create a object pool (or atleast thats what I think you kool kids would call it) and then compose the shit properly to be applied. If you go though the notation everything should make sense or atleast I hope, all I know is it works on chrome and thats good enough for me.

@@ -1,0 +1,2 @@
+-transition/elements/pseudoState
+If there is a pseudo element with a state configer the state properly to work with states.

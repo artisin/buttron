@@ -1,0 +1,3 @@
+-transition/objectNotation/globalOption
+When there is a 'globalOption' object present within the transition object the globalOption properties will overwright the defaults although the indivdiual sub-object options will overwright all.
+option > globalOption > default

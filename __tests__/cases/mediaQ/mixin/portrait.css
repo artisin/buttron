@@ -1,0 +1,32 @@
+.test {
+  background: #eee;
+}
+@media only screen and (orientation: portrait) {
+  .test {
+    width: 300px;
+  }
+}
+.test {
+  background: #eee;
+}
+@media only screen and (orientation: portrait) {
+  .test {
+    width: 300px;
+  }
+}
+.test {
+  background: #eee;
+}
+@media only screen and (orientation: portrait) {
+  .test {
+    width: 300px;
+  }
+}
+.test {
+  background: #eee;
+}
+@media only screen and (orientation: portrait) {
+  .test {
+    width: 300px;
+  }
+}

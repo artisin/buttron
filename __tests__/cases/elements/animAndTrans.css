@@ -1,0 +1,148 @@
+@-moz-keyframes testAnim {
+  50% {
+    background: #008000;
+  }
+}
+@-webkit-keyframes testAnim {
+  50% {
+    background: #008000;
+  }
+}
+@-o-keyframes testAnim {
+  50% {
+    background: #008000;
+  }
+}
+@keyframes testAnim {
+  50% {
+    background: #008000;
+  }
+}
+.test:after {
+  content: 'test';
+  transition-property: color, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+  animation-name: testAnim;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.test:hover:after {
+  font-size: 1.2rem;
+  color: #ffc0cb;
+  transition-property: color, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+  animation-name: yoyo;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.test:first-child {
+  width: 200px;
+  transition-property: color, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:first-child:hover {
+  font-size: 1.2rem;
+  color: #ffc0cb;
+  transition-property: color, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+  animation-name: kool;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@-moz-keyframes testAnim {
+  50% {
+    background: #008000;
+  }
+}
+@-webkit-keyframes testAnim {
+  50% {
+    background: #008000;
+  }
+}
+@-o-keyframes testAnim {
+  50% {
+    background: #008000;
+  }
+}
+@keyframes testAnim {
+  50% {
+    background: #008000;
+  }
+}
+.test:after {
+  content: 'test';
+  transition-property: color, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+  animation-name: testAnim;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.test:hover:after {
+  font-size: 1.2rem;
+  color: #ffc0cb;
+  transition-property: color, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+  animation-name: yoyo;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.test:first-child {
+  width: 200px;
+  transition-property: color, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+}
+.test:first-child:hover {
+  font-size: 1.2rem;
+  color: #ffc0cb;
+  transition-property: color, font-size;
+  transition-duration: 1s, 0.5s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  transition-delay: 0s, 0s;
+  animation-name: kool;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}

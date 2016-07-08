@@ -1,0 +1,2 @@
+-mediaQ/keyNotation
+When using key notation all obj keys must correspond with said break points, if they do create 'at' media q's for each respective obj. Bascially it should just cycle through and treat each one as indv q's.

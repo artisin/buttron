@@ -1,0 +1,36 @@
+.test {
+  background: #eee;
+}
+@media only screen and (max-width: 400px) and (max-height: 400px) {
+  .test {
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test {
+    width: 800px;
+  }
+}
+.test {
+  background: #eee;
+}
+@media only screen and (max-width: 400px) and (max-height: 400px) {
+  .test {
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test {
+    width: 800px;
+  }
+}

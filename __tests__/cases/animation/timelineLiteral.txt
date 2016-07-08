@@ -1,0 +1,2 @@
+-animation/timelineLiteral
+If the timeline is a literal and no name is defined assume that timeline is to be inherited and set options for said timeline.

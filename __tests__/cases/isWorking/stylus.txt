@@ -1,0 +1,1 @@
+Stylus file should be compiled and placed in complied folder with the prefix name of `.compliled` and then compared to the css file.

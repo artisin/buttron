@@ -1,0 +1,2 @@
+-transition/shorthand_OptA/multiple
+With multiple shorthand keys join arguments together and default when no trans option is specified

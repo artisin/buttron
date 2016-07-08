@@ -1,0 +1,2 @@
+-animation/multiOptionA/shorthand
+Shorthand within option that if shorthand key match timeline name/key will be assigned with said shorthand options.

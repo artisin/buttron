@@ -1,0 +1,2 @@
+-states/custom/trans-anim/basic
+Should be able to have both trans and anim objs within a custom state and process them together.

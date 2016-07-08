@@ -1,0 +1,52 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 300px
+    trans:{
+      one:{
+        font-size: 1.2rem
+      }
+      two:{
+        background: green
+        color: red
+        option:{
+          applyTo: span
+          shorthand:{
+            background: 1s
+            color: 2s ease-out
+          }
+        }
+      }
+      globalOption:{
+        delay: 0.1s
+      }
+    }
+  })
+
+  
+
+buttron('.test', {
+  style: false
+  width: 300px
+  transition:{
+    one:{
+      font-size: 1.2rem
+    }
+    two:{
+      background: green
+      color: red
+      option:{
+        applyTo: span
+        shorthand:{
+          background: 1s
+          color: 2s ease-out
+        }
+      }
+    }
+    globalOption:{
+      delay: 0.1s
+    }
+  }
+})

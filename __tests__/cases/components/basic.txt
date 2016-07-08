@@ -1,0 +1,2 @@
+-components/basic
+If there is a component, treat it as such in that the said component is that of the parents scoope. If there is no element key specified assume it to be the object kep otherwise use the specifed element.

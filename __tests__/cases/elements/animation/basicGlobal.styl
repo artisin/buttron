@@ -1,0 +1,38 @@
+
+
+.test
+  buttron({
+    style: false
+    after:{
+      content: 'test'
+      anim:{
+        name: 'testAnim'
+        option:{
+         count: infinite
+        }
+        timeline: {
+          '50':{
+            background: green
+          }
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  style: false
+  after:{
+    content: 'test'
+    anim:{
+      name: 'testAnim'
+      option:{
+       count: infinite
+      }
+      timeline: {
+        '50':{
+          background: green
+        }
+      }
+    }
+  }
+})

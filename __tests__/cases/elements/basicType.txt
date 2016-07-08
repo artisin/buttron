@@ -1,0 +1,2 @@
+-elements/basicType
+If regex match of `-type` consider it to be an element and compile it as such.

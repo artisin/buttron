@@ -1,0 +1,2 @@
+-transition/shorthand_OptC/optionWithProperty
+If there is a property key present in the option object said property key will as long as its respective option index trans properties will be merge with shorthand which will still inhert the default option property like it normally would.

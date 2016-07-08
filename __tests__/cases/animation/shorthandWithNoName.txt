@@ -1,0 +1,2 @@
+-animation/shorthandWithNoName
+If shorthand and there is no name key pair then use the key of said shorthand for the name.

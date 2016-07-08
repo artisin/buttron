@@ -1,0 +1,84 @@
+@-moz-keyframes test {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+@-webkit-keyframes test {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+@-o-keyframes test {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+@keyframes test {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+.test {
+  animation-name: test;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@-moz-keyframes test {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+@-webkit-keyframes test {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+@-o-keyframes test {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+@keyframes test {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 1.2rem;
+  }
+}
+.test {
+  animation-name: test;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}

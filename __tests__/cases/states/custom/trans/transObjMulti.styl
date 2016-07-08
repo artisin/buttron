@@ -1,0 +1,67 @@
+
+
+.test
+  buttron({
+    width: 200px
+    customState:{
+      trans:{
+        on:{
+          background: #eee
+          option:{
+            state: 'checked'
+            duration: 2s
+          }
+        }
+        off:{
+          opacity: 0.8
+          option:{
+            state: 'disabled'
+            duration: 1s
+            ease: ease-out
+          }
+        }
+        invalid:{
+          color: red
+          option:{
+            transition: false
+          }
+        }
+        globalOption:{
+          ease: sedona
+        }
+      }
+    }
+  })
+
+
+buttron('.test', {
+  width: 200px
+  customState:{
+    trans:{
+      on:{
+        background: #eee
+        option:{
+          state: 'checked'
+          duration: 2s
+        }
+      }
+      off:{
+        opacity: 0.8
+        option:{
+          state: 'disabled'
+          duration: 1s
+          ease: ease-out
+        }
+      }
+      invalid:{
+        color: red
+        option:{
+          transition: false
+        }
+      }
+      globalOption:{
+        ease: sedona
+      }
+    }
+  }
+})

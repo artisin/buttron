@@ -1,0 +1,6 @@
+.test > span + .test {
+  font-size: 1rem;
+}
+.test > p .test {
+  font-size: 1rem;
+}

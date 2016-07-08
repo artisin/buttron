@@ -1,0 +1,76 @@
+
+
+.test
+  buttron({
+    background: #eee
+    media:{
+      'xs-sm':{
+        width: 100px
+        option:{
+          max-height: 400px
+        }
+      }
+      '+kool':{
+        width: 500px
+        option:{
+          between: '100px' '300px'
+          type:{
+            media: 'tv'
+            condition: 'not'
+          }
+        }
+      }
+      'lg-hd':{
+        width: 800px
+      }
+      'custom+':{
+        height: 420px
+        option:{
+          max-height: 2000px
+        }
+      }
+      global:{
+        color: #fff
+        option:{
+          portrait: true
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  background: #eee
+  media:{
+    'xs-sm':{
+      width: 100px
+      option:{
+        max-height: 400px
+      }
+    }
+    '+kool':{
+      width: 500px
+      option:{
+        between: '100px' '300px'
+        type:{
+          media: 'tv'
+          condition: 'not'
+        }
+      }
+    }
+    'lg-hd':{
+      width: 800px
+    }
+    'custom+':{
+      height: 420px
+      option:{
+        max-height: 2000px
+      }
+    }
+    global:{
+      color: #fff
+      option:{
+        portrait: true
+      }
+    }
+  }
+})

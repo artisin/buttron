@@ -1,0 +1,2 @@
+-trans/shorthand_OptB/basic
+When presented with both an option and shorthand object, the shorthand props will inherit said trans options in the option object. 

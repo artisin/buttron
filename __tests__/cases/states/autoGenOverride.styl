@@ -1,0 +1,122 @@
+
+
+.test
+  buttron({
+    width: 200px
+    hover: {
+      opacity: 0.8
+      option:{
+        duration: 1s
+        autoGen: false
+      }
+    }
+  })
+//with apply
+.test
+  buttron({
+    width: 200px
+    hover: {
+      opacity: 0.8
+      option:{
+        applyTo: 'span'
+        duration: 1s
+        autoGen: false
+      }
+    }
+  })
+//with comp
+.test
+  buttron({
+    width: 200px
+    component:{
+      '.beerMe': {
+        background: green
+        hover: {
+          opacity: 0.8
+          option:{
+            applyTo: '+ span'
+            duration: 1s
+            autoGen: false
+          }
+        }
+      }
+    }
+  })
+//with comp and root
+.test
+  buttron({
+    width: 200px
+    component:{
+      '.beerMe': {
+        background: green
+        hover: {
+          opacity: 0.8
+          option:{
+            applyTo: '+ span'
+            duration: 1s
+            autoGen: false
+            root: true
+          }
+        }
+      }
+    }
+  })
+
+
+buttron('.test', {
+  width: 200px
+  hover: {
+    opacity: 0.8
+    option:{
+      duration: 1s
+      autoGen: false
+    }
+  }
+})
+
+buttron('.test', {
+  width: 200px
+  hover: {
+    opacity: 0.8
+    option:{
+      applyTo: 'span'
+      duration: 1s
+      autoGen: false
+    }
+  }
+})
+
+buttron('.test', {
+  width: 200px
+  component:{
+    '.beerMe': {
+      background: green
+      hover: {
+        opacity: 0.8
+        option:{
+          applyTo: '+ span'
+          duration: 1s
+          autoGen: false
+        }
+      }
+    }
+  }
+})
+
+buttron('.test', {
+  width: 200px
+  component:{
+    '.beerMe': {
+      background: green
+      hover: {
+        opacity: 0.8
+        option:{
+          applyTo: '+ span'
+          duration: 1s
+          autoGen: false
+          root: true
+        }
+      }
+    }
+  }
+})

@@ -1,0 +1,76 @@
+
+
+.test
+  buttron({
+    width: 200px
+    customState:{
+      //anim will inherit
+      state: 'checked'
+      trans:{
+        kool:{
+          //default to check
+          font-size: 2em
+        },
+        sweet:{
+          //specify state
+          state: 'disabled'
+          color: red
+        }
+      }
+      anim:{
+        one:{
+          name: 'firstBeer'
+          timeline:{
+            '50':{
+              font-size: 2em
+            }
+          }
+        }
+        two:{
+          name: 'secondBeer'
+          timeline:{
+            '50':{
+              width: 400px
+            }
+          }
+        }
+      }
+    }
+  })
+
+buttron('.test', {
+  width: 200px
+  customState:{
+    //anim will inherit
+    state: 'checked'
+    trans:{
+      kool:{
+        //default to check
+        font-size: 2em
+      },
+      sweet:{
+        //specify state
+        state: 'disabled'
+        color: red
+      }
+    }
+    anim:{
+      one:{
+        name: 'firstBeer'
+        timeline:{
+          '50':{
+            font-size: 2em
+          }
+        }
+      }
+      two:{
+        name: 'secondBeer'
+        timeline:{
+          '50':{
+            width: 400px
+          }
+        }
+      }
+    }
+  }
+})

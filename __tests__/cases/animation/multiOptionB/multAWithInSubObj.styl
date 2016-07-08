@@ -1,0 +1,74 @@
+
+
+.test
+  buttron({
+    style: false
+    anim:{
+      one:{
+        option:{
+          state: running
+          count: 10
+        }
+        timeline: tlOne
+      }
+      tlTwo: {
+        multiple: true
+        option:{
+          ease: ease-in
+        }
+        timeline: {
+          subTlOne: {
+            '50':{
+              background: green
+            }
+          }
+          subTlTwo:{
+            '50':{
+              color: yellow
+            }
+          }
+        }
+      }
+      globalOption:{
+        state: paused
+        duration: 1s
+      }
+    }
+  })
+
+
+
+buttron('.test', {
+  style: false
+  anim:{
+    one:{
+      option:{
+        state: running
+        count: 10
+      }
+      timeline: tlOne
+    }
+    tlTwo: {
+      multiple: true
+      option:{
+        ease: ease-in
+      }
+      timeline: {
+        subTlOne: {
+          '50':{
+            background: green
+          }
+        }
+        subTlTwo:{
+          '50':{
+            color: yellow
+          }
+        }
+      }
+    }
+    globalOption:{
+      state: paused
+      duration: 1s
+    }
+  }
+})

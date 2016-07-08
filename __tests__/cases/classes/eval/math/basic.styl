@@ -1,0 +1,19 @@
+
+
+evalMath = ButtronClass('evalMath', {
+  style: false
+  $$:{
+    eval:{
+      w: "math($$[base] * 20px / 2)"
+      h: "math(($$[base] * 20px) / 1.5)"
+    }
+    base: 10
+  }
+  height: "$$[w]"
+  width: "$$[h]"
+})
+
+.test
+  evalMath()
+
+evalMath('.test')

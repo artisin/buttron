@@ -1,0 +1,2 @@
+-transition/objectNotation/objectWithPropery
+If there is a sub-obj with an property option everything should act as expected with property and said options created while not auto-gen any props within said sub-object.

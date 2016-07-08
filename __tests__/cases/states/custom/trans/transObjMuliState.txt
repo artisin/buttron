@@ -1,0 +1,2 @@
+-states/custom/trans/transObjMuliState
+If there is multiple state cycle through and apply to their respecitve state.

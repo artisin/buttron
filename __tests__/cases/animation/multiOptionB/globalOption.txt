@@ -1,0 +1,3 @@
+-animation/multiOptionB/globalOption
+If there is a globalOption those options will overwright the default but defined options in the sub-objs will take prority
+option > globalOption > default

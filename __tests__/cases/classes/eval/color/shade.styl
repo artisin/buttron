@@ -1,0 +1,18 @@
+
+
+evalShade = ButtronClass('evalShade', {
+  style: false
+  $$:{
+    eval:{
+      bg: "shade($$[base], 66%)"
+    }
+    base: #fd0cc7
+  }
+  background: "$$[bg]"
+  color: shade(#fd0cc7,66%)
+})
+
+.test
+  evalShade()
+
+evalShade('.test')

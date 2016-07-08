@@ -1,0 +1,40 @@
+
+
+.test
+  buttron({
+    style: false
+    width: 400px
+    anim:{
+      option:{
+        state: paused
+        shorthand:{
+          kool: 1s ease-in default 5s 
+        }
+      }
+      timeline:{
+        '50':{
+          background: teal
+        }
+      }
+    }
+  })
+
+
+
+buttron('.test', {
+  style: false
+  width: 400px
+  anim:{
+    option:{
+      state: paused
+      shorthand:{
+        kool: 1s ease-in default 5s 
+      }
+    }
+    timeline:{
+      '50':{
+        background: teal
+      }
+    }
+  }
+})

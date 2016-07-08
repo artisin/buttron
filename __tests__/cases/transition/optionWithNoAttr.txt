@@ -1,0 +1,2 @@
+-transition/optionWithNoAttr
+If transition objected is present with no atttributes specified and just an object option, default to said options specifed and all for property.

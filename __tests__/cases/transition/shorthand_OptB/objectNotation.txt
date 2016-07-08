@@ -1,0 +1,2 @@
+-transition/shorthand_OptB/objectNotation
+Use shorthand within transtion objection that is using object notation. Should act as expected.

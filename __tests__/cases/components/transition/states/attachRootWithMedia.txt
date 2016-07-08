@@ -1,0 +1,2 @@
+-components/transition/states/attachRootWithMedia
+If attaching to root with media that is a string we then need to create a global trans since its attached to the root.

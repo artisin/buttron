@@ -1,0 +1,2 @@
+-mediaQ/keyNotationMulti
+Same as keyNotation the only diffrence is if the key is sepeated via '-' then split and treat as indv as well under that scope. Also allow for global. That makes no sense.

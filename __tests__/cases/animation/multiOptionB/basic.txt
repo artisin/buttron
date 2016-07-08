@@ -1,0 +1,2 @@
+-animation/multiOptionB/basic
+If in the anim obj is made up of sub-anim-objs process each one indvidually and then merge the results together.

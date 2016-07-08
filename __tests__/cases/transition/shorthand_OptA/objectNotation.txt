@@ -1,0 +1,2 @@
+-transition/shorthand_OptA/objectNotation
+Use shorthand within transtion that is using object notation. Typical behavior is expected.

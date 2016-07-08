@@ -1,0 +1,78 @@
+
+
+.test
+  buttron({
+    style: false
+    anim:{
+      multiple: true
+      option:{
+        duration: 10s
+        delay: 1s
+        tlOne:{
+          ease: ease-in
+          count: 10
+          state: paused
+        }
+        snoop:{
+          delay: 2s
+        }
+      }
+      timeline:{
+        tlOne:{
+          "50%":{
+            background: purple
+          }
+        }
+        koolBrah:{
+          name: tlTwo
+          "50%":{
+            color: yellow
+          }
+        }
+        snoop:{
+          "50%":{
+            font-size: 1.4rem
+          }
+        }
+      }
+    }
+  })
+
+
+
+buttron('.test', {
+  style: false
+  anim:{
+    multiple: true
+    option:{
+      duration: 10s
+      delay: 1s
+      tlOne:{
+        ease: ease-in
+        count: 10
+        state: paused
+      }
+      snoop:{
+        delay: 2s
+      }
+    }
+    timeline:{
+      tlOne:{
+        "50%":{
+          background: purple
+        }
+      }
+      koolBrah:{
+        name: tlTwo
+        "50%":{
+          color: yellow
+        }
+      }
+      snoop:{
+        "50%":{
+          font-size: 1.4rem
+        }
+      }
+    }
+  }
+})

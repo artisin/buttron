@@ -1,0 +1,18 @@
+
+
+evalInvert = ButtronClass('evalInvert', {
+  style: false
+  $$:{
+    eval:{
+      bg: "invert($$[base])"
+    }
+    base: #d62828
+  }
+  background: "$$[bg]"
+  color: invert(#d62828)
+})
+
+.test
+  evalInvert()
+
+evalInvert('.test')

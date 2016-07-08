@@ -1,0 +1,2 @@
+-elements/transition/pseudoOverride
+If `pseudo: false` is passed configure the transtion as such.
