@@ -5,7 +5,7 @@
 
 ## About
 
-The myth, the legend, the origin of ctr. Buttron is a 3433 line Stylus program that taught me how to program quite literally. In retrospect, it was a romanticly naive endeavor, but it taught me some invaluable lessons and more importantly, I think I can safely claim I created the most sophisticated Stylus program ever to grace this earth.
+The mythical origin of ctr. Buttron is a 3435 line Stylus program that taught me how to program quite literally. In retrospect, it was a romanticly naive endeavor, but it taught me invaluable lessons and more importantly, I think I can safely claim I've created the most sophisticated Stylus program ever to grace this earth.
 
 
 ## Usage
